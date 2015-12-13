@@ -33,7 +33,7 @@ class Govt():
         self.rate2 = rate2
         self.rate3 = rate3
         self.rate4 = rate4
-left1 = Govt(0,20000,100000,0.9,0.76,0.6,0.5)
+left1 = Govt(0,25000,100000,0.9,0.76,0.6,0.5)
 centregovt = Govt(1500,24000,150000,0.9,0.78,0.6,0.5)
 right1 = Govt(6000,30000,150000,1,0.8,0.6,0.5)
 name = "Craig"
