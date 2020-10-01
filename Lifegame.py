@@ -1,5 +1,6 @@
 #-------------------------------------------------------------------------------
-# Name:        module1
+# Name:        module11
+
 # Purpose:
 #
 # Author:      Craig
@@ -198,7 +199,8 @@ count = 0
 options = ["Burger","Beer","Movies","work","water"]
 while count < 30:
 
-    choice = int(raw_input("what do you want to do? " + str(options)))
+    choice = int(raw_input("what do you want to do? " + str(option)))
+                                                        
 
     if choice == 1:
         playa.thing(Burger)
